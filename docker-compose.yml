@@ -1,0 +1,10 @@
+services:
+    postgres:
+        container_name: pgsql-dev
+        environment:
+            - POSTGRES_PASSWORD=test1234
+        volumes:
+            - '${PWD}/postgres-docker:/var/lib/postgresql/data'
+        ports:
+            - '5432:5432'
+        image: postgres
