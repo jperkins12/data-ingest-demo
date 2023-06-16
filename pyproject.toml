@@ -12,6 +12,7 @@ psycopg2-binary = "^2.9.6"
 kaggle = "^1.5.13"
 sqlalchemy = "^2.0.16"
 jupyterlab = "^4.0.2"
+seaborn = "^0.12.2"
 
 
 [build-system]
